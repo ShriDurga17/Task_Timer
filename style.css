@@ -27,10 +27,10 @@ input[type="text"], button {
     background-color: #f2f2f2;
 }
 
-/* Style for the task table rows */
+/* Style for the task table rows 
 #tasktable tbody tr:nth-child(even) {
     background-color: #f9f9f9;
-}
+}*/
 
 /* Style for the clear button */
 #clearButton {
