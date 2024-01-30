@@ -22,10 +22,11 @@ input[type="text"], button {
     margin: 4px;
 }
 
-/* Style for the task table heading */
+/* Style for the task table heading 
 #tasktable th {
     background-color: #f2f2f2;
 }
+*/
 
 /* Style for the task table rows 
 #tasktable tbody tr:nth-child(even) {
