@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the table, th, and td */
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+/* Style for the form inputs and buttons */
+input[type="text"], button {
+    padding: 6px;
+    margin: 4px;
+}
+
+/* Style for the task table heading */
+#tasktable th {
+    background-color: #f2f2f2;
+}
+
+/* Style for the task table rows */
+#tasktable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style for the clear button */
+#clearButton {
+    background-color: #ff6666;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+input[type="text"]
+{
+    padding:10px;
+    box-sizing: border-box;
+    border:2px black solid;
+    margin-bottom: 10px;
+    border-radius:5px;
+    outline: none;
+
+}
+
+#clearButton:hover {
+    background-color: #ff4d4d;
+}
+
+/* Style for the timer display */
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for the Enter button */
+#enter {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#enter:hover {
+    background-color: #45a049;
+}
+/* Center align the content in the body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(xinyi-w-qjCHPZbeXCQ-unsplash.jpg);
+}
+
+#tasktable {
+    margin-top: 20px; 
+}
+
+
+button {
+    display: inline;
+    size: 50px;
+    font-size: larger;
+    padding:10px;
+}
+
+h1{
+    text-align:center;
+ 
+}
+.square{
+    height:100px;
+    width:200px;
+    border-radius :20px;
+    background-color: tomato;
+
+}
+.circle{
+    height:500px;
+    width:500px;
+    border-style: dotted;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+
+
+
+
+

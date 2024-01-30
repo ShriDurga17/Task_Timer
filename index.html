@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('hourglass.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff; 
+        font-family: Arial, sans-serif; 
+    }
+</style>
+    
+</head>
+<body >
+    <header>
+        <h1>PROJECT TIMER</h1>
+    </header>
+    <br>
+    <input type="text" placeholder="Task" id="task" >
+    <br><br>
+    <input type="text" placeholder="Description" id="desc">
+    <br><br>
+    <p style="font-size: larger;" id="timer">0:00</p>
+    <br>
+    <div class="buttons">
+    <button type="button" id="sbutton">Start</button>
+    <button type="button" id="ebutton">Stop</button>
+</div>
+    <br> <br><br>
+
+    <br><br>
+    <table id="tasktable">
+        <thead>
+            <tr>
+                <th colspan="3">Task Details</th>
+            </tr>
+            <tr>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody id="taskList">
+            <tr>
+                <td>Internship</td>
+                <td>Ontology</td>
+                <td>00:38:00</td>
+            </tr>
+            <tr>
+                <td>Meeting with Mentor</td>
+                <td>Project Discussion</td>
+                <td>00:54:32</td>
+            </tr>
+            <tr>
+                <td>Lunch</td>
+                <td>Break</td>
+                <td>01:15:00</td>
+            </tr>
+        </tbody>  
+    </table>
+    <br>
+    <div class="buttons">
+    <button type="button" id="enter">Enter</button>
+    <button type="button" id="clearButton">Clear</button>
+    </div>
+    
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
